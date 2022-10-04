@@ -119,7 +119,15 @@ export function SkillsSection() {
             }
           />
         </div>
-        <GitHubCalendar username="AnkitSangwan8282"/>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <GitHubCalendar username="AnkitSangwan8282" />
+        </div>
       </Fade>
     </div>
   );

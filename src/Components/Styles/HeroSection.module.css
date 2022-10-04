@@ -35,16 +35,17 @@ a {
   grid-area: photoCont;
   width: 100%;
   /* border: 2px solid black; */
+
   max-height: 60vh;
+  padding-top: 15%;
 }
 .socialCont {
-  grid-area: socialCont;
-  width: 20%;
+  display: flex;
+  gap :5px;
+  margin-top: -30%;
   /* border: 2px solid black; */
   /* height: 50vh; */
-  display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 .linkedInIcon {
   font-size: 40px;
